@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="469.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sudoku.png" />
+               </image>
+            </ImageView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Решатель судоку" textAlignment="CENTER" wrappingWidth="600.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Разработчик: Лимон Валентина " textAlignment="CENTER" wrappingWidth="325.6708984375" />
+            <Text layoutX="147.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Группа: 3 &quot;Б&quot;" textAlignment="CENTER" wrappingWidth="325.6708984375" />
+            <Text layoutX="147.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Благовещенск 2021" textAlignment="CENTER" wrappingWidth="325.6708984375" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
